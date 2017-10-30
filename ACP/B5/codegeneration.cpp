@@ -106,6 +106,12 @@ class dag
 				op(tree->data);
 				cout<<"R["<<R[top]<<"],"<<tree->right->data<<endl;
 			}
+			else if(tree->left->label >= 1 && tree->right->label == 0)
+			{
+				generatecode(tree->left);
+				op(tree->data);
+				cout<<"R["<<R[top]<<"],"<<tree->right->data<<endl;
+			}
 			else if(tree->left->label >= tree->right->label )
 			{	
 				generatecode(tree->left);
@@ -115,7 +121,7 @@ class dag
 				op(tree->data);
 				cout<<"R["<<R[top]<<"],R["<<R[top-1]<<"]\n";
 			}
-			else if(tree->left->label >= 1 && tree->right->label == 0)
+			else if(tree->left->label < tree->right->label)
 			{	
 				int temp= R[0];
 				R[0] = R[1];
@@ -130,12 +136,7 @@ class dag
 				op(tree->data);
 				cout<<"R["<<R[top]<<"],R["<<R[top-1]<<"]\n";
 			}
-			else if(tree->left->label >= 1 && tree->right->label == 0)
-			{
-				generatecode(tree->left);
-				op(tree->data);
-				cout<<"R["<<R[top]<<"],"<<tree->right->data<<endl;
-			}
+			
 		}
 		else
 			cout<<"MOV R["<<R[top]<<"],"<<tree->data<<endl;

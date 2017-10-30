@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<parsetable> 
+
+  <state id="0" > 
+    <id>0</id> 
+    <t1>S5</t1> 
+    <t2>E</t2> 
+    <t3>E</t3> 
+    <t4>S4</t4> 
+    <t5>E</t5> 
+    <t6>E</t6> 
+    <nt1>1</nt1> 
+    <nt2>2</nt2> 
+    <nt3>3</nt3> 
+
+   
+  </state> 
+
+<state id="1"> 
+    <id>1</id> 
+    <t1>E</t1> 
+    <t2>S6</t2> 
+    <t3>E</t3> 
+    <t4>E</t4> 
+    <t5>E</t5> 
+    <t6>A</t6> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>E</nt3> 
+
+   
+  </state> 
+
+
+<state id="2"> 
+    <id>2</id> 
+    <t1>E</t1> 
+    <t2>R2</t2> 
+    <t3>S7</t3> 
+    <t4>E</t4> 
+    <t5>R2</t5> 
+    <t6>R2</t6> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>E</nt3> 
+ 
+   
+  </state> 
+
+
+<state id="3"> 
+    <id>3</id> 
+    <t1>E</t1> 
+    <t2>R4</t2> 
+    <t3>R4</t3> 
+    <t4>E</t4> 
+    <t5>R4</t5> 
+    <t6>R4</t6> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>E</nt3> 
+
+   
+  </state> 
+
+
+
+<state id="4"> 
+    <id>4</id> 
+    <t1>S5</t1> 
+    <t2>E</t2> 
+    <t3>E</t3> 
+    <t4>S4</t4> 
+    <t5>E</t5> 
+    <t6>E</t6> 
+    <nt1>8</nt1> 
+    <nt2>2</nt2> 
+    <nt3>3</nt3> 
+
+   
+  </state> 
+
+<state id="5"> 
+    <id>55</id> 
+    <t1>E</t1> 
+    <t2>R6</t2> 
+    <t3>R6</t3> 
+    <t4>E</t4> 
+    <t5>R6</t5> 
+    <t6>R6</t6> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>E</nt3> 
+
+   
+  </state> 
+
+<state id="6"> 
+    <id>6</id> 
+    <t1>S5</t1> 
+    <t2>E</t2> 
+    <t3>E</t3> 
+    <t4>S4</t4> 
+    <t5>E</t5> 
+    <t6>E</t6> 
+    <nt1></nt1> 
+    <nt2>9</nt2> 
+    <nt3>3</nt3> 
+
+   
+  </state> 
+
+<state id="7"> 
+    <id>7</id> 
+    <t1>S5</t1> 
+    <t2>E</t2> 
+    <t3>E</t3> 
+    <t4>S4</t4> 
+    <t5>E</t5> 
+    <t6>E</t6> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>10</nt3> 
+
+   
+  </state> 
+
+
+<state id="8"> 
+    <id>8</id> 
+    <t1>E</t1> 
+    <t2>S6</t2> 
+    <t3>E</t3> 
+    <t4>E</t4> 
+    <t5>S11</t5> 
+    <t6>E</t6> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>E</nt3> 
+
+   
+  </state> 
+
+
+<state id="9"> 
+    <id>9</id> 
+    <t1>E</t1> 
+    <t2>R1</t2> 
+    <t3>S7</t3> 
+    <t4>E</t4> 
+    <t5>R1</t5> 
+    <t6>R1</t6> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>E</nt3> 
+
+   
+  </state> 
+
+
+<state id="10"> 
+    <id>10</id> 
+    <t1></t1> 
+    <t2>R3</t2> 
+    <t3>R3</t3> 
+    <t4></t4> 
+    <t5>R3</t5> 
+    <t6>R3</t6> 
+    <t7>E</t7> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>E</nt3> 
+
+   
+  </state> 
+
+
+<state id="11"> 
+    <id>11</id> 
+    <t1>E</t1> 
+    <t2>R5</t2> 
+    <t3>R5</t3> 
+    <t4>E</t4> 
+    <t5>R5</t5> 
+    <t6>R5</t6> 
+    <t7>E</t7> 
+    <nt1>E</nt1> 
+    <nt2>E</nt2> 
+    <nt3>E</nt3> 
+
+   
+  </state> 
+
+</parsetable>

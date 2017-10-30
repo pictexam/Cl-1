@@ -1,0 +1,10 @@
+1. hadoop fs -put /home/shruti/4228/b13/sample.txt /
+
+
+2. javac -classpath /usr/local/hadoop-2.6.0/hadoop-core-1.2.1.jar MapReduce.java
+
+
+3. jar cvf MapReduce.jar *.class
+
+
+4. hadoop jar MapReduce.jar MapReduce /sample.txt /b13op 
